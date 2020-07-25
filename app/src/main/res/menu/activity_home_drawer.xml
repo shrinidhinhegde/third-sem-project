@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/events"
+            android:title="@string/events" />
+        <item
+            android:id="@+id/nav_holidays"
+            android:icon="@drawable/holidays"
+            android:title="@string/holidays" />
+        <item
+            android:id="@+id/nav_timetable"
+            android:icon="@drawable/events"
+            android:title="@string/time_table" />
+    </group>
+
+    <item android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_sign_out"
+                android:icon="@drawable/sign_out"
+                android:title="@string/sign_out" />
+        </menu>
+    </item>
+
+</menu>
